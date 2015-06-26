@@ -1,6 +1,6 @@
 # Swift Script Include
 
-Because running Swift in command-line doesn't support including other files, I made a quick Python script that takes in an input file and replaces all instances of `include somefile.swift` with the contents of that file. This happens recursively so that included files can also include other files.
+Because running Swift in command-line doesn't support including other files, I made a quick Python script that takes in an input file and replaces all instances of `include "somefile.swift"` with the contents of that file. This happens recursively so that included files can also include other files.
 
 ## `swiftinclude.py`
 
